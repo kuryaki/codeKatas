@@ -2,7 +2,7 @@
 function calculateRoman(number){
 	
 	var result='';
-	var romanNumbers=            ['','V'];
+	var romanNumbers=            ['','V', 'X'];
 
 	var moduleFive=number%5;              // 1, 2, 3, 4, 0, 1, 2, 3, 4, 0
 	var divisorFive=Math.floor(number/5); // 0, 0, 0, 0, 1, 1, 1, 1, 1, 2
