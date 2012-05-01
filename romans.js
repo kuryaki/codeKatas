@@ -1,13 +1,17 @@
 
 function calculateRoman(number){
-  var result='';
+	var result='';
   
-  while(number){
-    result +='I';
-    number--;
-  }
+	if(number%5===4){
+		result='IV';
+	}else{
+		while(number){
+			result +='I';
+		    number--;
+		}	
+	}
  
-  return result;
+	return result;
 };
 
 module.exports.calculateRoman = calculateRoman;
