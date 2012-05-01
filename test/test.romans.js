@@ -18,4 +18,8 @@ suite('romans', function(){
   test('number 4 should return IV', function(){
     assert.equal('IV', calculateRoman(4));
   });
+  
+  test('number 5 should return V', function(){
+    assert.equal('V', calculateRoman(5));
+  });
 });
