@@ -1,0 +1,19 @@
+{
+  "author": "David Roncancio <david@roncancio.me>",
+  "name": "Katas",
+  "description": "Doing some training katas with javascript",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --ui tdd test/*"
+  },
+  "engines": {
+    "node": ">0.6.X"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha":">0.10.X"
+  }
+}
