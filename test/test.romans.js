@@ -22,4 +22,8 @@ suite('romans', function(){
   test('number 5 should return V', function(){
     assert.equal('V', calculateRoman(5));
   });
+  
+  test('number 6 should return VI', function(){
+    assert.equal('VI', calculateRoman(6));
+  });
 });
