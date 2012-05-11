@@ -33,5 +33,18 @@ suite('romans', function(){
 
   test('number 9 should return IX', function(){
     assert.equal('IX', calculateRoman(9));
+  });
+
+  test('number 10 should return X', function(){
+    assert.equal('X', calculateRoman(10));
   });  
+
+  test('number 13 should return XIII', function(){
+    assert.equal('XIII', calculateRoman(13));
+  });
+
+  test('number 14 should return XIV', function(){
+    assert.equal('XIV', calculateRoman(14));
+  });
+
 });
