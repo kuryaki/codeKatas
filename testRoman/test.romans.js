@@ -47,4 +47,36 @@ suite('romans', function(){
     assert.equal('XIV', calculateRoman(14));
   });
 
+  test('number 15 should return XIV', function(){
+    assert.equal('XV', calculateRoman(15));
+  });
+
+  test('number 19 should return XIX', function(){
+    assert.equal('XIX', calculateRoman(19));
+  });
+
+  test('number 20 should return XX', function(){
+    assert.equal('XX', calculateRoman(20));
+  });
+
+  test('number 23 should return XXIII', function(){
+    assert.equal('XXIII', calculateRoman(23));
+  });
+
+  test('number 24 should return XXIV', function(){
+    assert.equal('XXIV', calculateRoman(24));
+  });
+
+  test('number 29 should return XXIX', function(){
+    assert.equal('XXIX', calculateRoman(29));
+  });
+
+  test('number 39 should return XXXIX', function(){
+    assert.equal('XXXIX', calculateRoman(39));
+  });
+
+  test('number 40 should return XL', function(){
+    assert.equal('XL', calculateRoman(40));
+  });
+
 });

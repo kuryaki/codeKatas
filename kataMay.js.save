@@ -1,0 +1,19 @@
+
+function myFunction(first, second){
+	var result = first + second;
+
+	if (first.length=== 2 ||){
+		result = 'VI';
+	}
+
+	if(first === 'IV' || second === 'IV'){
+		result = 'V';
+	}	    
+	
+	if (result.length === 4)
+		return 'IV';
+	
+	return result;
+}
+
+module.exports.myFunction = myFunction;
